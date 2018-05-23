@@ -1,2 +1,22 @@
+body{
+	/* Background image */
+	background-image: url(cover.png);
 
-/*# sourceMappingURL=../css/style.map */
+	/* Adjust background repeat */
+	background-repeat: repeat-y;
+	background-repeat: repeat-x;
+	background-repeat: no-repeat;
+
+	background-image: url(cover.jpg);
+
+	/* Background size property */
+	background-size: 600px;
+	background-size: cover;
+
+	/* Background position property*/
+	background-position: center;
+
+	/* Background scroll property */
+	background-attachment: fixed;
+
+}
