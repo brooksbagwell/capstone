@@ -1,13 +1,13 @@
 body{
 	/* Background image */
-	background-image: url(../img/back.png);
+	background-image: url(../../img/cover.jpg);
 
 	/* Adjust background repeat */
 	background-repeat: repeat-y;
 	background-repeat: repeat-x;
 	background-repeat: no-repeat;
 
-	background-image: url(../img/cover.jpg);
+	background-image: url(../../img/cover.jpg);
 
 	/* Background size property */
 	background-size: 600px;
