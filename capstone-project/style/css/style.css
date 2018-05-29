@@ -28,10 +28,11 @@ h1 {
   width: 50%;
   /* Shortcut: all 4 sides (clockwise) */
   /* top, right, bottom, left*/
-  padding: 50px 20px 300px 30px;
+  padding: 50px 20px 280px 30px;
 }
 
-.column-third {}
+.column-third {
+}
 
 @media only screen and (max-width: 600px) {
   /* Mobile - Only */
