@@ -1,3 +1,72 @@
+$primary-color: #6bbe46;
+$secondary-color: #0d2244;
+
+
 .intro{
   padding: 50px 50px 350px 50px;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+  /* Background image */
+  background-image: url(../../img/cover.jpg);
+  /* Adjust background repeat */
+  background-repeat: no-repeat;
+  background-image: url(../../img/cover.jpg);
+  /* Background size property */
+  background-size: 600px;
+  background-size: cover;
+  /* Background position property*/
+  background-position: center;
+  /* Background scroll property */
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 38px;
+}
+
+.text-highlight{
+  color: $primary-color;
+}
+
+.intro {
+  /* Shortcut: all 4 sides (clockwise) */
+  /* top, right, bottom, left*/
+  margin: 20px;
+  display: block;
+  width: 50%;
+  /* Shortcut: all 4 sides (clockwise) */
+  /* top, right, bottom, left*/
+  padding: 50px 20px 20px 30px;
+}
+
+.card{
+  margin: 50px;
+}
+
+.card-header{
+  font-family: 'Oswald', sans-serif;
+  color: $primary-color;
+  font-size: 22px;
+}
+
+.btn-primary{
+  background-color: $primary-color;
+    &:hover {background-color: #0d2244; }
+}
+
+.column-third {
+
+}
+
+@media only screen and (max-width: 600px) {
+  /* Mobile - Only */
+}
+
+footer {
+  color: white;
 }
