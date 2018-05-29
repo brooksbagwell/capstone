@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald");
-/* line 5, /Users/bbagwell79/Documents/GitHub/capstone/capstone-project/style/sass/style.scss */
-.intro {
-  padding: 50px 50px 350px 50px;
-}
-
-/* line 12, /Users/bbagwell79/Documents/GitHub/capstone/capstone-project/style/sass/style.scss */
+/* line 7, /Users/bbagwell79/Documents/GitHub/capstone/capstone-project/style/sass/style.scss */
 body {
   /* Background image */
   background-image: url(../../img/cover.jpg);
@@ -20,18 +15,18 @@ body {
   background-attachment: fixed;
 }
 
-/* line 27, /Users/bbagwell79/Documents/GitHub/capstone/capstone-project/style/sass/style.scss */
+/* line 22, /Users/bbagwell79/Documents/GitHub/capstone/capstone-project/style/sass/style.scss */
 h1 {
   font-family: 'Oswald', sans-serif;
   font-size: 38px;
 }
 
-/* line 32, /Users/bbagwell79/Documents/GitHub/capstone/capstone-project/style/sass/style.scss */
+/* line 27, /Users/bbagwell79/Documents/GitHub/capstone/capstone-project/style/sass/style.scss */
 .text-highlight {
   color: #6bbe46;
 }
 
-/* line 36, /Users/bbagwell79/Documents/GitHub/capstone/capstone-project/style/sass/style.scss */
+/* line 31, /Users/bbagwell79/Documents/GitHub/capstone/capstone-project/style/sass/style.scss */
 .intro {
   /* Shortcut: all 4 sides (clockwise) */
   /* top, right, bottom, left*/
@@ -43,24 +38,24 @@ h1 {
   padding: 50px 20px 20px 30px;
 }
 
-/* line 47, /Users/bbagwell79/Documents/GitHub/capstone/capstone-project/style/sass/style.scss */
+/* line 42, /Users/bbagwell79/Documents/GitHub/capstone/capstone-project/style/sass/style.scss */
 .card {
   margin: 50px;
 }
 
-/* line 51, /Users/bbagwell79/Documents/GitHub/capstone/capstone-project/style/sass/style.scss */
+/* line 46, /Users/bbagwell79/Documents/GitHub/capstone/capstone-project/style/sass/style.scss */
 .card-header {
   font-family: 'Oswald', sans-serif;
   color: #6bbe46;
   font-size: 22px;
 }
 
-/* line 57, /Users/bbagwell79/Documents/GitHub/capstone/capstone-project/style/sass/style.scss */
+/* line 52, /Users/bbagwell79/Documents/GitHub/capstone/capstone-project/style/sass/style.scss */
 .btn-primary {
   background-color: #6bbe46;
 }
 
-/* line 59, /Users/bbagwell79/Documents/GitHub/capstone/capstone-project/style/sass/style.scss */
+/* line 54, /Users/bbagwell79/Documents/GitHub/capstone/capstone-project/style/sass/style.scss */
 .btn-primary:hover {
   background-color: #0d2244;
 }
@@ -69,7 +64,7 @@ h1 {
   /* Mobile - Only */
 }
 
-/* line 70, /Users/bbagwell79/Documents/GitHub/capstone/capstone-project/style/sass/style.scss */
+/* line 65, /Users/bbagwell79/Documents/GitHub/capstone/capstone-project/style/sass/style.scss */
 footer {
   color: white;
 }
