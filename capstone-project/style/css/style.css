@@ -1,40 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
-body{
-	/* Background image */
-	background-image: url(../../img/cover.jpg);
-
-	/* Adjust background repeat */
+body {
+  /* Background image */
+  background-image: url(../../img/cover.jpg);
+  /* Adjust background repeat */
   background-repeat: no-repeat;
-
-	background-image: url(../../img/cover.jpg);
-
-	/* Background size property */
-	background-size: 600px;
-	background-size: cover;
-
-	/* Background position property*/
-	background-position: center;
-
-	/* Background scroll property */
-	background-attachment: fixed;
-
+  background-image: url(../../img/cover.jpg);
+  /* Background size property */
+  background-size: 600px;
+  background-size: cover;
+  /* Background position property*/
+  background-position: center;
+  /* Background scroll property */
+  background-attachment: fixed;
 }
 
-h1{
+h1 {
   font-family: 'Oswald', sans-serif;
-  font-size: 25px;
+  font-size: 38px;
 }
 
-.intro{
-  padding: 50px 50px 250px 50px;
+.intro {
+  /* Shortcut: all 4 sides (clockwise) */
+  /* top, right, bottom, left*/
+  margin: 20px;
+  display: block;
+  width: 50%;
+  /* Shortcut: all 4 sides (clockwise) */
+  /* top, right, bottom, left*/
+  padding: 50px 20px 300px 30px;
 }
+
+.column-third {}
 
 @media only screen and (max-width: 600px) {
-	/* Mobile - Only */
-    }
+  /* Mobile - Only */
+}
 
-
-footer{
+footer {
   color: white;
 }
